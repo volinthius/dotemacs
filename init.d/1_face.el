@@ -1,6 +1,5 @@
 (set-face-attribute 'default nil
                     :font "DejaVu Sans Mono"
-                    :height 100
                     :background "grey14"
                     :foreground "white"
                     )
