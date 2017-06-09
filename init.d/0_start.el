@@ -27,3 +27,6 @@
 (global-set-key [f7] 'eval-buffer)
 (global-set-key [f6] 'package-list-packages)
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
+
+;; enable xterm mouse mode
+(if (not window-system) (xterm-mouse-mode t))
