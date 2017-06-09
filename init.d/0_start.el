@@ -12,6 +12,8 @@
 ;; variables
 (setq inhibit-splash-screen t)
 (setq make-backup-files nil)
+(setq-default tab-width 4)
+(setq-default indent-tabs-mode nil)
 
 ;; modes
 (tool-bar-mode 0)
