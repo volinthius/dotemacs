@@ -1,5 +1,5 @@
 (if (window-system)
-    ((set-face-attribute 'default nil
+    (progn (set-face-attribute 'default nil
 			:font "DejaVu Sans Mono"
 			:background "grey14"
 			:foreground "white"
@@ -13,7 +13,7 @@
 			 :background "lightblue"
 			 :foreground "black"
 			 ))
-  (set-face-attribute 'default nil
+  (progn (set-face-attribute 'default nil
 			:background "grey14"
 			:foreground "white"
-			))
+			)))
