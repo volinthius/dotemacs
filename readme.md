@@ -1,5 +1,5 @@
 Installing
 ----------
 
-	ln -sf emacs ~/.emacs-config
-    ln -sf emacs ~/.emacs
+    ln -sf /path/to/dotemacs ~/.emacs-config
+    ln -sf /path/to/dotemacs/emacs ~/.emacs
