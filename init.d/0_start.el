@@ -14,6 +14,7 @@
 (setq make-backup-files nil)
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
+(setq-default x-select-enable-clipboard t)
 
 ;; modes
 (tool-bar-mode 0)
