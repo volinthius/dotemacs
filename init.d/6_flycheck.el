@@ -1,6 +1,19 @@
-(use-package flycheck
-  :ensure t)
+;;; 6_flycheck.el --- flycheck
 
-(use-package flycheck-pyflakes
+;;; Commentary:
+
+;; Import flycheck et al.
+
+;;; Code:
+
+(use-package flycheck
   :ensure t
-  :init (add-hook 'python-mode-hook 'flycheck-mode))
+  :init
+  (global-flycheck-mode)
+  (flycheck-add-next-checker 'python-flake8 'python-pylint))
+
+;; Local Variables:
+;; byte-compile-warnings: (not free-vars unresolved)
+;; End:
+
+;;; 6_flycheck.el ends here
