@@ -5,6 +5,9 @@
         ("robot-mode.el" . "https://raw.githubusercontent.com/heimojuh/robot-mode/master/robot-mode.el")
       ))
 
+(unless (file-directory-p "~/.emacs-config/lib")
+  (make-directory "~/.emacs-config/lib"))
+
 (dolist (pair library-files)
 	      (unless (locate-file (car pair) '("~/.emacs-config/lib"))
 		(url-copy-file (cdr pair) (concat "~/.emacs-config/lib/" (car pair)))))
