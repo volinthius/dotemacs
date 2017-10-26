@@ -1,1 +1,2 @@
-(server-start nil t)
+(load "server")
+(unless (server-running-p) (server-start))
