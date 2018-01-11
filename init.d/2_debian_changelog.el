@@ -1,0 +1,1 @@
+(require 'debian-changelog-mode)
