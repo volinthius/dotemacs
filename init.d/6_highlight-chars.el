@@ -1,3 +1,2 @@
-(use-package highlight-chars
-  :ensure t
-  :init (hc-toggle-highlight-trailing-whitespace))
+(require 'highlight-chars)
+(hc-toggle-highlight-trailing-whitespace)
