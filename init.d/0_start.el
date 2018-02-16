@@ -12,8 +12,7 @@
 
 ;; get packages
 (setq library-files
-      '(("use-package.el" . "https://raw.githubusercontent.com/jwiegley/use-package/master/use-package.el")
-        ("bind-key.el" . "https://raw.githubusercontent.com/jwiegley/use-package/master/bind-key.el")
+      '(("bind-key.el" . "https://raw.githubusercontent.com/jwiegley/use-package/master/bind-key.el")
         ("robot-mode.el" . "https://raw.githubusercontent.com/heimojuh/robot-mode/master/robot-mode.el")
         ("debian-changelog-mode.el" . "https://raw.githubusercontent.com/errge/emacs-goodies-el/master/usr/share/emacs/site-lisp/dpkg-dev-el/debian-changelog-mode.el")
       ))
