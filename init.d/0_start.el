@@ -1,4 +1,16 @@
-;; get use-package and bind-key
+;;; 0_start.el --- Startpoint
+
+;;; Commentary:
+
+;; See title
+
+;;; Local Variables:
+;;; byte-compile-warnings: (not free-vars)
+;;; End:
+
+;;; Code:
+
+;; get packages
 (setq library-files
       '(("use-package.el" . "https://raw.githubusercontent.com/jwiegley/use-package/master/use-package.el")
         ("bind-key.el" . "https://raw.githubusercontent.com/jwiegley/use-package/master/bind-key.el")
@@ -37,3 +49,5 @@
 
 ;; enable xterm mouse mode
 (if (not window-system) (xterm-mouse-mode t))
+
+;;; 0_start.el ends here
