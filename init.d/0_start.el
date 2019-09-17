@@ -16,6 +16,7 @@
         ("robot-mode.el" . "https://raw.githubusercontent.com/heimojuh/robot-mode/master/robot-mode.el")
         ("debian-changelog-mode.el" . "https://raw.githubusercontent.com/errge/emacs-goodies-el/master/usr/share/emacs/site-lisp/dpkg-dev-el/debian-changelog-mode.el")
         ("highlight-chars.el" . "https://www.emacswiki.org/emacs/download/highlight-chars.el")
+        ("openapi-yaml-mode.el" . "https://raw.githubusercontent.com/magoyette/openapi-yaml-mode/master/openapi-yaml-mode.el")
       ))
 
 (unless (file-directory-p "~/.emacs-config/lib")
