@@ -12,13 +12,13 @@
 
 (setq default-directory "~/")
 
-(if (file-exists-p "~/.emacs-site-init")
-    (load-file "~/.emacs-site-init"))
+(if (file-exists-p "~/.emacs-config/emacs-site-init.el")
+    (load-file "~/.emacs-config/emacs-site-init.el"))
 
 (dolist (file-name (directory-files "~/.emacs-config/init.d" t "\\.el"))
   (load-file file-name))
 
-(if (file-exists-p "~/.emacs-site-config")
-    (load-file "~/.emacs-site-config"))
+(if (file-exists-p "~/.emacs-config/emacs-site-config.el")
+    (load-file "~/.emacs-config/emacs-site-config.el"))
 
 ;;; emacs ends here
