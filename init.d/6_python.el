@@ -2,6 +2,9 @@
   :ensure t
   :init (setq venv-location "~/virtualenv"))
 
+(use-package pyenv-mode
+  :ensure t)
+
 ;(use-package jedi
 ;  :ensure t
 ;  :init
