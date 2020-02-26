@@ -1,3 +1,3 @@
-(use-package js2-mode
+(use-package rjsx-mode
   :ensure t
   :mode "\\.js$")
