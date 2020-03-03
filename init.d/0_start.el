@@ -28,6 +28,12 @@
 
 (add-to-list 'load-path "~/.emacs-config/lib")
 
+;; add locally installed go to path if it exists
+(if (file-exists-p "/usr/local/go/bin")
+    (progn
+      (setenv "PATH" (concat (getenv "PATH") ":" "/usr/local/go/bin/"))
+      (add-to-list 'exec-path "/usr/local/go/bin/")))
+
 ;; variables
 (setq inhibit-splash-screen t)
 (setq make-backup-files nil)
@@ -50,5 +56,8 @@
 
 ;; enable xterm mouse mode
 (if (not window-system) (xterm-mouse-mode t))
+
+;; Set GOPATH for goflymake
+(setenv "GOPATH" (concat (expand-file-name "~") "/go"))
 
 ;;; 0_start.el ends here
