@@ -61,4 +61,7 @@
 ;; Set GOPATH for goflymake
 (setenv "GOPATH" (concat (expand-file-name "~") "/go"))
 
+;; allow moving in sentences with single-space end
+(setq sentence-end-double-space nil)
+
 ;;; 0_start.el ends here
