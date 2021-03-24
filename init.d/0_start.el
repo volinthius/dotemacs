@@ -35,6 +35,7 @@
       (add-to-list 'exec-path "/usr/local/go/bin/")))
 
 ;; variables
+(setq create-lockfiles nil)
 (setq inhibit-splash-screen t)
 (setq make-backup-files nil)
 (setq-default tab-width 4)
