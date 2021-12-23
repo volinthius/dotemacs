@@ -1,6 +1,6 @@
-(use-package virtualenvwrapper
-  :ensure t
-  :init (setq venv-location "~/virtualenv"))
+;(use-package virtualenvwrapper
+;  :ensure t
+;  :init (setq venv-location "~/virtualenv"))
 
 (use-package pyenv-mode
   :ensure t)
